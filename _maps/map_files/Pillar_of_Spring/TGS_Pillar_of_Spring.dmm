@@ -479,13 +479,6 @@
 /obj/structure/dropship_equipment/weapon/minirocket_pod,
 /turf/open/floor/mainship/floor,
 /area/mainship/hallways/hangar)
-"bC" = (
-/obj/machinery/power/apc/mainship,
-/obj/structure/cable,
-/turf/open/floor/mainship/sterile/purple/side{
-	dir = 5
-	},
-/area/mainship/medical/chemistry)
 "bD" = (
 /obj/structure/dropship_equipment/weapon/minirocket_pod,
 /turf/open/floor/mainship/mono,
@@ -572,20 +565,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/hangar)
-"bU" = (
-/obj/machinery/door/firedoor/multi_tile{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/door/airlock/multi_tile/mainship/medidoor/medbay/free_access{
-	dir = 1;
-	name = "Chemistry";
-	req_one_access = list(2,8,40)
-	},
-/turf/open/floor/mainship/sterile/side,
-/area/mainship/medical/chemistry)
 "bV" = (
 /obj/machinery/door_control/mainship/ammo{
 	dir = 8
@@ -1782,13 +1761,6 @@
 /obj/machinery/door/firedoor/mainship,
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/engineering/lower_engineering)
-"fy" = (
-/obj/structure/flora/pottedplant{
-	icon_state = "plant-05"
-	},
-/obj/machinery/vending/nanomed,
-/turf/open/floor/mainship/mono,
-/area/mainship/engineering/engineering_workshop)
 "fz" = (
 /obj/machinery/vending/nanomed,
 /turf/open/floor/mainship/mono,
@@ -2035,6 +2007,13 @@
 	dir = 1
 	},
 /area/mainship/living/numbertwobunks)
+"gj" = (
+/obj/structure/disposalpipe/segment/corner,
+/obj/effect/ai_node,
+/turf/open/floor/mainship/sterile/purple/side{
+	dir = 10
+	},
+/area/mainship/medical/chemistry)
 "gk" = (
 /turf/open/floor/mainship_hull/dir{
 	dir = 10
@@ -5151,12 +5130,6 @@
 	dir = 1
 	},
 /area/mainship/medical/lower_medical)
-"pq" = (
-/obj/machinery/light/mainship{
-	dir = 1
-	},
-/turf/open/floor/mainship/mono,
-/area/mainship/squads/req)
 "pt" = (
 /obj/structure/table/mainship/nometal,
 /obj/machinery/microwave,
@@ -5680,6 +5653,18 @@
 "rg" = (
 /turf/open/floor/mainship/stripesquare,
 /area/mainship/hallways/starboard_hallway)
+"rh" = (
+/obj/machinery/door/airlock/mainship/research/pen,
+/obj/machinery/door/firedoor/mainship,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/mainship/sterile/dark,
+/area/mainship/medical/medical_science)
 "ri" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
@@ -8301,6 +8286,14 @@
 	dir = 1
 	},
 /area/mainship/hallways/hangar)
+"yZ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/mainship/sterile/purple/corner{
+	dir = 8
+	},
+/area/mainship/medical/chemistry)
 "za" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -11074,14 +11067,6 @@
 	dir = 1
 	},
 /area/mainship/medical/medical_science)
-"Hd" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/mainship/sterile/purple/side{
-	dir = 1
-	},
-/area/mainship/medical/medical_science)
 "He" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
@@ -11125,11 +11110,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/port_hallway)
-"Hi" = (
-/obj/structure/disposalpipe/segment/corner,
-/obj/effect/ai_node,
-/turf/open/floor/mainship/sterile/dark,
-/area/mainship/medical/chemistry)
 "Hj" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/mono,
@@ -14622,6 +14602,12 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/mainship/engineering/engine_core)
+"Qy" = (
+/obj/structure/cable,
+/turf/open/floor/mainship/sterile/purple/corner{
+	dir = 1
+	},
+/area/mainship/medical/chemistry)
 "Qz" = (
 /obj/machinery/holopad,
 /turf/open/floor/mainship/mono,
@@ -15486,12 +15472,6 @@
 	dir = 4
 	},
 /area/mainship/medical/lower_medical)
-"Td" = (
-/obj/structure/cable,
-/turf/open/floor/mainship/sterile/side{
-	dir = 1
-	},
-/area/mainship/medical/chemistry)
 "Te" = (
 /turf/open/floor/mainship/red{
 	dir = 4
@@ -15884,19 +15864,6 @@
 	},
 /turf/open/floor/wood,
 /area/mainship/living/chapel)
-"Ul" = (
-/obj/machinery/door/airlock/mainship/research/pen,
-/obj/machinery/door/firedoor/mainship,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/mainship/sterile/dark,
-/area/mainship/medical/medical_science)
 "Um" = (
 /turf/closed/wall/mainship/outer,
 /area/space)
@@ -16513,6 +16480,11 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hull/lower_hull)
+"VV" = (
+/obj/structure/flora/pottedplant,
+/obj/machinery/vending/nanomed,
+/turf/open/floor/mainship/mono,
+/area/mainship/engineering/engineering_workshop)
 "VW" = (
 /obj/machinery/power/apc/mainship,
 /obj/structure/cable,
@@ -16694,6 +16666,13 @@
 "Ws" = (
 /turf/closed/wall/mainship/outer,
 /area/mainship/living/pilotbunks)
+"Wt" = (
+/obj/machinery/power/apc/mainship,
+/obj/structure/cable,
+/turf/open/floor/mainship/sterile/purple/side{
+	dir = 1
+	},
+/area/mainship/medical/chemistry)
 "Wu" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -41703,7 +41682,7 @@ TV
 ZX
 ZX
 ZX
-Ul
+rh
 ZX
 Vq
 vZ
@@ -42476,7 +42455,7 @@ yl
 ZX
 ZX
 gg
-Hd
+Wb
 qs
 ZX
 Rf
@@ -46079,8 +46058,8 @@ mx
 SJ
 SJ
 SJ
-Td
-bU
+Qy
+yZ
 Sq
 YT
 YT
@@ -46336,8 +46315,8 @@ iC
 SR
 lP
 UV
-bC
-Hi
+Wt
+gj
 ef
 lF
 Zq
@@ -48654,7 +48633,7 @@ Yv
 UA
 NO
 qG
-pq
+Ry
 uT
 jy
 Uu
@@ -49723,7 +49702,7 @@ OK
 xb
 XC
 OK
-fy
+VV
 zs
 yx
 zo
