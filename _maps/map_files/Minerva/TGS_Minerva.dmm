@@ -633,6 +633,11 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/hallways/starboard_hallway)
+"bS" = (
+/obj/structure/table/mainship/nometal,
+/obj/effect/spawner/random/plushie/nospawnninety,
+/turf/open/floor/mainship/floor,
+/area/mainship/hallways/starboard_hallway)
 "bT" = (
 /obj/machinery/dropship_part_fabricator,
 /turf/open/floor/mainship/cargo,
@@ -941,6 +946,14 @@
 /obj/structure/cable,
 /turf/open/floor/grass,
 /area/mainship/living/port_garden)
+"cR" = (
+/obj/machinery/light/mainship{
+	dir = 1
+	},
+/turf/open/floor/mainship/sterile/purple/side{
+	dir = 1
+	},
+/area/mainship/medical/chemistry)
 "cS" = (
 /obj/effect/ai_node,
 /obj/item/paper/memorial,
@@ -3310,6 +3323,13 @@
 /obj/structure/supply_drop,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
+"kG" = (
+/obj/machinery/light/mainship,
+/obj/machinery/door/window/secure/bridge/aidoor{
+	dir = 8
+	},
+/turf/open/floor/mainship/tcomms,
+/area/mainship/command/airoom)
 "kI" = (
 /turf/open/floor/mainship_hull/dir{
 	dir = 10
@@ -4255,6 +4275,12 @@
 	dir = 4
 	},
 /area/mainship/shipboard/weapon_room)
+"nU" = (
+/obj/effect/ai_node,
+/turf/open/floor/mainship/sterile/purple/side{
+	dir = 6
+	},
+/area/mainship/medical/chemistry)
 "nX" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/ai_node,
@@ -4288,11 +4314,6 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/mono,
 /area/mainship/living/pilotbunks)
-"ob" = (
-/obj/structure/table/mainship/nometal,
-/obj/effect/spawner/random/plushie/nospawnninety,
-/turf/open/floor/mainship/floor,
-/area/mainship/hallways/starboard_hallway)
 "oc" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
@@ -4863,6 +4884,13 @@
 /obj/structure/window/framed/mainship,
 /turf/open/floor/plating,
 /area/mainship/command/self_destruct)
+"pQ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/turf/open/floor/mainship/sterile/dark,
+/area/mainship/medical/chemistry)
 "pT" = (
 /obj/docking_port/stationary/supply,
 /turf/open/floor/mainship/empty,
@@ -5199,6 +5227,12 @@
 /obj/structure/closet/toolcloset,
 /turf/open/floor/mainship/mono,
 /area/mainship/shipboard/firing_range)
+"rt" = (
+/obj/structure/window/reinforced/extratoughened{
+	dir = 1
+	},
+/turf/open/floor/mainship/tcomms,
+/area/mainship/command/airoom)
 "ru" = (
 /obj/effect/landmark/start/job/squadleader,
 /obj/effect/landmark/start/latejoin,
@@ -5206,12 +5240,6 @@
 	dir = 8
 	},
 /area/mainship/living/cryo_cells)
-"rv" = (
-/obj/effect/ai_node,
-/turf/open/floor/mainship/sterile/purple/side{
-	dir = 4
-	},
-/area/mainship/medical/chemistry)
 "rw" = (
 /obj/effect/decal/warning_stripes/thin{
 	dir = 4
@@ -6053,6 +6081,11 @@
 /obj/effect/ai_node,
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/lower_medical)
+"uo" = (
+/obj/machinery/light/mainship,
+/obj/machinery/door/window/secure/bridge/aidoor,
+/turf/open/floor/mainship/tcomms,
+/area/mainship/command/airoom)
 "uq" = (
 /obj/machinery/light/mainship{
 	dir = 8
@@ -6539,11 +6572,6 @@
 	},
 /turf/open/floor/wood,
 /area/mainship/medical/lounge)
-"vE" = (
-/obj/structure/table/woodentable,
-/obj/effect/spawner/random/plushie/nospawnninety,
-/turf/open/floor/wood,
-/area/mainship/medical/lounge)
 "vF" = (
 /obj/structure/bed/chair/wood/wings{
 	dir = 8
@@ -6691,6 +6719,15 @@
 /obj/machinery/holopad,
 /turf/open/floor/mainship/floor,
 /area/mainship/hallways/starboard_hallway)
+"wc" = (
+/obj/structure/window/reinforced/extratoughened{
+	dir = 1
+	},
+/obj/structure/window/reinforced/extratoughened{
+	dir = 4
+	},
+/turf/open/floor/mainship/tcomms,
+/area/mainship/command/airoom)
 "wd" = (
 /obj/structure/cable,
 /turf/open/floor/mainship/sterile/purple/side{
@@ -9309,6 +9346,15 @@
 	},
 /turf/open/floor/freezer,
 /area/mainship/living/cafeteria_starboard)
+"DQ" = (
+/obj/structure/window/reinforced/extratoughened{
+	dir = 8
+	},
+/obj/structure/window/reinforced/extratoughened{
+	dir = 1
+	},
+/turf/open/floor/mainship/tcomms,
+/area/mainship/command/airoom)
 "DR" = (
 /obj/machinery/light/mainship{
 	dir = 4
@@ -10725,17 +10771,6 @@
 /obj/machinery/smartfridge/chemistry,
 /turf/open/floor/mainship/sterile/dark,
 /area/mainship/medical/chemistry)
-"HS" = (
-/obj/machinery/door/airlock/mainship/medical/free_access{
-	dir = 2;
-	name = "Chemistry"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
-/turf/open/floor/mainship/sterile/dark,
-/area/mainship/medical/chemistry)
 "HU" = (
 /obj/machinery/computer/camera_advanced/remote_fob,
 /turf/open/floor/mainship/red{
@@ -10941,12 +10976,6 @@
 /turf/open/floor/mainship/sterile/purple/side{
 	dir = 1
 	},
-/area/mainship/medical/chemistry)
-"IA" = (
-/obj/machinery/light/mainship{
-	dir = 1
-	},
-/turf/open/floor/mainship/sterile/purple/corner,
 /area/mainship/medical/chemistry)
 "IB" = (
 /turf/open/floor/mainship/mono,
@@ -11228,14 +11257,8 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/mainship/living/briefing)
 "Jy" = (
-/obj/structure/window/reinforced/extratoughened{
-	dir = 1
-	},
-/obj/structure/window/reinforced/extratoughened{
-	dir = 4
-	},
-/turf/open/floor/mainship/tcomms,
-/area/mainship/command/airoom)
+/turf/open/floor/mainship/sterile/purple/corner,
+/area/mainship/medical/chemistry)
 "JA" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -11553,14 +11576,6 @@
 	dir = 9
 	},
 /area/mainship/living/commandbunks)
-"Kw" = (
-/obj/machinery/door/airlock/multi_tile/mainship/medidoor/medbay/free_access{
-	dir = 1;
-	name = "Chemistry";
-	req_one_access = list(2,8,40)
-	},
-/turf/open/floor/mainship/sterile/dark,
-/area/mainship/medical/chemistry)
 "Kx" = (
 /obj/effect/decal/warning_stripes/thin{
 	dir = 1
@@ -13791,6 +13806,11 @@
 	},
 /turf/open/floor/plating/mainship,
 /area/mainship/shipboard/weapon_room)
+"Rl" = (
+/obj/structure/table/woodentable,
+/obj/effect/spawner/random/plushie/nospawnninety,
+/turf/open/floor/wood,
+/area/mainship/medical/lounge)
 "Rm" = (
 /obj/effect/decal/warning_stripes/thick{
 	dir = 4
@@ -13972,6 +13992,13 @@
 	dir = 1
 	},
 /area/mainship/living/evacuation)
+"RP" = (
+/obj/effect/landmark/start/job/ai,
+/obj/machinery/door/window/secure/bridge{
+	dir = 2
+	},
+/turf/open/floor/mainship/tcomms,
+/area/mainship/command/airoom)
 "RQ" = (
 /turf/open/floor/plating{
 	dir = 4;
@@ -14486,6 +14513,11 @@
 	dir = 4
 	},
 /area/mainship/living/briefing)
+"Tu" = (
+/turf/open/floor/mainship/sterile/purple/corner{
+	dir = 4
+	},
+/area/mainship/medical/chemistry)
 "Tv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -15911,21 +15943,6 @@
 	dir = 1
 	},
 /area/mainship/command/cic)
-"XV" = (
-/obj/structure/window/reinforced/extratoughened{
-	dir = 8
-	},
-/obj/structure/window/reinforced/extratoughened{
-	dir = 1
-	},
-/turf/open/floor/mainship/tcomms,
-/area/mainship/command/airoom)
-"XW" = (
-/obj/structure/window/reinforced/extratoughened{
-	dir = 1
-	},
-/turf/open/floor/mainship/tcomms,
-/area/mainship/command/airoom)
 "XZ" = (
 /turf/open/floor/mainship/red/corner{
 	dir = 1
@@ -16250,25 +16267,6 @@
 	dir = 1
 	},
 /area/mainship/medical/chemistry)
-"YW" = (
-/obj/machinery/light/mainship,
-/obj/machinery/door/window/secure/bridge/aidoor{
-	dir = 8
-	},
-/turf/open/floor/mainship/tcomms,
-/area/mainship/command/airoom)
-"YX" = (
-/obj/effect/landmark/start/job/ai,
-/obj/machinery/door/window/secure/bridge{
-	dir = 2
-	},
-/turf/open/floor/mainship/tcomms,
-/area/mainship/command/airoom)
-"YZ" = (
-/obj/machinery/light/mainship,
-/obj/machinery/door/window/secure/bridge/aidoor,
-/turf/open/floor/mainship/tcomms,
-/area/mainship/command/airoom)
 "Zb" = (
 /turf/open/floor/mainship/red{
 	dir = 6
@@ -21195,7 +21193,7 @@ rO
 kq
 tG
 uT
-vE
+Rl
 wv
 xC
 ty
@@ -22579,7 +22577,7 @@ Cc
 Fe
 Gk
 Hc
-HS
+pQ
 Iz
 Ju
 Ku
@@ -22678,9 +22676,9 @@ Ff
 Gl
 Hd
 HQ
-IA
-Jv
-rv
+cR
+Jt
+nU
 Jv
 Jv
 Mm
@@ -22776,9 +22774,9 @@ Fg
 Gm
 kt
 HQ
-HR
-Jt
-Kw
+Jy
+Jv
+Tu
 HQ
 Is
 Is
@@ -25310,7 +25308,7 @@ vi
 vi
 sP
 vg
-ob
+bS
 yA
 Of
 Eo
@@ -27985,8 +27983,8 @@ Sp
 TZ
 VR
 WQ
-XV
-YW
+DQ
+kG
 NO
 ID
 Hr
@@ -28083,8 +28081,8 @@ Sq
 TZ
 na
 WQ
-XW
-YX
+rt
+RP
 NO
 ID
 Hr
@@ -28181,8 +28179,8 @@ Sp
 TZ
 VR
 WQ
-Jy
-YZ
+wc
+uo
 NO
 xB
 Hr
